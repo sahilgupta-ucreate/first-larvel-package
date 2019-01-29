@@ -1,0 +1,14 @@
+{
+    "name": "sahil/first",
+    "description": "This is my first package.",
+    "type": "Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sahil",
+            "email": "sahilgupta@ucreate.co.in"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
