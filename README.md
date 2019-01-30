@@ -1,14 +1,33 @@
-Open you teminal and type
+# Contact Us Package
 
-cd to/your/poject/path
+This package will provide you a contact us form which save all information in databasetable. 
 
-Then install package using 
+## Installation
+
+Install using following command.
+
+```bash
 composer require sahil/first
+```
 
-Then opem config/app/php and add following to providers.
+## Configurations
+Then open ``` config/app/php ``` and add following class to providers array.
 
+
+```php
 Sahil\First\FirstServiceProvider::class,
+```
 
-and now run following url in your web browser.
+After that, Install migration using following commands in terminal.
 
-www.yourdomain.com/pkg
+```bash
+php artisan migrate
+```
+
+## Usage
+Try following path for contact us form.
+ 
+``` www.yourdomain.com/pkg/contact ```
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
