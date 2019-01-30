@@ -32,13 +32,14 @@ Try following path for contact us form.
 For getting list of all message. Use following in your controller
 
 ```php
-use Sahil\First\Models\ContactForm;
+use Sahil\First\ContactHelper;
 ```
 
 After that, Try following code in your function.
 
 ```php
-$msgList = new ContactHelper();
+$contact_helper = new ContactHelper();
+$msg_list = $contact_helper->GetAllMessages();
 ```
 
 ## License
