@@ -1,6 +1,6 @@
 # Contact Us Package
 
-This package will provide you a contact us form which save all information in databasetable. 
+This package will provide you a contact us form which save all information in database table. 
 
 ## Installation
 
@@ -28,6 +28,18 @@ php artisan migrate
 Try following path for contact us form.
  
 ``` www.yourdomain.com/pkg/contact ```
+
+For getting list of all message. Use following in your controller
+
+```php
+use Sahil\First\Models\ContactForm;
+```
+
+After that, Try following code in your function.
+
+```php
+$msgList = new ContactHelper();
+```
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
